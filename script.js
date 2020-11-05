@@ -119,6 +119,7 @@ speechSynthesis.addEventListener("voiceschanged", getVoices);
 // Toggle text box
 toggleBtn.addEventListener("click", () =>
   document.getElementById("text-box").classList.toggle("show")
+  alert('you clicked!')
 );
 
 // Close button
