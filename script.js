@@ -4,6 +4,7 @@ const textarea = document.getElementById("text");
 const readBtn = document.getElementById("read");
 const toggleBtn = document.getElementById("toggle");
 const closeBtn = document.getElementById("close");
+const cunt = document.getElementById("cunts");
 
 const data = [
   {
@@ -120,11 +121,6 @@ speechSynthesis.addEventListener("voiceschanged", getVoices);
 toggleBtn.addEventListener("click", () => {
   document.getElementById("text-box").classList.toggle("show");
 });
-// Toggle text box
-toggleBtn.addEventListener("touchstart", () => {
-  document.getElementById("text-box").classList.toggle("show");
-});
-
 // Close button
 closeBtn.addEventListener("click", () =>
   document.getElementById("text-box").classList.remove("show")
