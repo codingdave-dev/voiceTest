@@ -117,7 +117,10 @@ function setVoice(e) {
 // Voices changed
 speechSynthesis.addEventListener("voiceschanged", getVoices);
 
-
+// Toggle text box
+toggleBtn.addEventListener("click", () => {
+  document.getElementById("text-box").classList.toggle("show");
+});
 
 
 
@@ -127,10 +130,7 @@ closeBtn.addEventListener("click", () =>
 
 );
 
-// Toggle text box
-toggleBtn.addEventListener("click", () => {
-  document.getElementById("text-box").classList.toggle("show");
-});
+
 
 // Change Voice
 voicesSelect.addEventListener("change", setVoice);
