@@ -43,7 +43,6 @@ select:focus {
   display: block;
   margin: auto;
   margin-bottom: 20px;
-  z-index: 100;
 }
 
 .text-box {
