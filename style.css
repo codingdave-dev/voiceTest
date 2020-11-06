@@ -45,7 +45,7 @@ select:focus {
   margin-bottom: 20px;
 }
 
-.text-box {
+.text-box1 {
   width: 70%;
   position: absolute;
   top: 30%;
@@ -58,11 +58,11 @@ select:focus {
   transition: transform 1s ease-in-out;
 }
 
-.text-box.show {
+.text-box1.show {
   transform: translate(-50%, 0);
 }
 
-.text-box select {
+.text-box1 select {
   background-color: darksalmon;
   border: 0;
   color: #fff;
@@ -71,7 +71,7 @@ select:focus {
   width: 100%;
 }
 
-.text-box textarea {
+.text-box1 textarea {
   border: 1px #dadada solid;
   border-radius: 4px;
   font-size: 16px;
@@ -81,11 +81,11 @@ select:focus {
   height: 150px;
 }
 
-.text-box .btn {
+.text-box1 .btn {
   width: 100%;
 }
 
-.text-box .close {
+.text-box1 .close {
   float: right;
   text-align: right;
   cursor: pointer;
