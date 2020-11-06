@@ -45,7 +45,7 @@ select:focus {
   margin-bottom: 20px;
 }
 
-.text-box123 {
+.text-box {
   width: 70%;
   position: absolute;
   top: 30%;
@@ -58,7 +58,7 @@ select:focus {
   transition: transform 1s ease-in-out;
 }
 
-.text-box123.show {
+.text-box .show {
   transform: translate(-50%, 0);
 }
 
