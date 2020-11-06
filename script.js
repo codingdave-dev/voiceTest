@@ -117,7 +117,11 @@ function setVoice(e) {
 speechSynthesis.addEventListener("voiceschanged", getVoices);
 
 // Toggle text box
-toggleBtn.addEventListener("click touchstart", () => {
+toggleBtn.addEventListener("click", () => {
+  document.getElementById("text-box").classList.toggle("show");
+});
+// Toggle text box
+toggleBtn.addEventListener("touchstart", () => {
   document.getElementById("text-box").classList.toggle("show");
 });
 
